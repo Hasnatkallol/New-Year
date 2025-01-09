@@ -193,3 +193,61 @@ margin-bottom: 10px;
     border-radius: 10px;
     border: none;
 }
+
+/* start coming soon */
+.coming-soon{
+    height: 463px;
+    margin: 120px 140px;
+    opacity: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+}
+.coming-soon .left{
+    width: 393px;
+    height: 255px;
+    margin-left: 10px;
+}
+.coming-soon .left .comingsoon-title{
+    font-size: 24px;
+    font-weight: medium;
+    font-family: "Inter", serif;
+    color: #FF0000;
+}
+.coming-soon .left .comingsoon-sub{
+    font-size: 48px;
+    font-weight: medium;
+    font-family: "Merriweather", serif;
+    color: black;
+    margin: 22px 0px;
+}
+.coming-soon .left .description{
+    font-family: "Inter", serif;
+    opacity: 0.6;
+    font-size: 20px;
+}
+.coming-soon .center{
+    height: 460px;
+}
+.coming-soon .center img{
+width: 100%;
+height: 100%;
+}
+.coming-soon .right{
+    margin-right: 10px;
+}
+.coming-soon .right .right-text {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+    color: red;
+    margin: 22px 0px;
+}
+.coming-soon .right .description{
+    font-family: "Inter", serif;
+    opacity: 0.6;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
