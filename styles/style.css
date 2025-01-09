@@ -229,7 +229,11 @@ margin-bottom: 10px;
     font-size: 20px;
 }
 .coming-soon .center{
-    height: 460px;
+    width: 480px;
+    height: 480px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
 }
 .coming-soon .center img{
 width: 100%;
@@ -251,3 +255,212 @@ height: 100%;
     font-size: 20px;
     margin-bottom: 60px;
 }
+
+/* start funvtional part */
+.functional {
+    height: 987px;
+    margin: 120px 140px;
+    opacity: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid red;
+}
+.functional .text .subtitle{
+    font-size: 24px;
+    font-weight: medium;
+    font-family: "Inter", serif;
+    color: black;
+}
+.functional .text .title{
+    font-size: 72px;
+    font-weight: medium;
+    font-family: "Merriweather", serif;
+    color: black;
+    margin: 20px 0;
+}
+.functional .text .description{
+    font-family: "Inter", serif;
+    opacity: 0.6;
+    font-size: 20px;
+    margin-bottom: 120px;
+    line-height: 30px;
+}
+ .bannerimage{
+    height: 660px;
+    position: relative;
+    width: 100%;
+}
+.bannerimage .img1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 100%;
+}
+.bannerimage .img2{
+    position: absolute;
+    left: 150px;
+    bottom: 52px;
+    width: 796px;
+    height: 662px;
+}
+.bannerimage .img3{
+    position: absolute;
+    left: 1150px;
+    bottom: 400px;
+    width: 305px;
+    height: 305px;
+}
+
+/* Start portfolio section  */
+.portfolio{
+    height: 1163px;
+    margin: 120px 140px;
+    opacity: 100%;
+    border-radius: 16px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: start;
+    border: 1px solid  blue;
+}
+.portfolio .portfolio-text .portfolio-subtitle {
+    font-size: 24px;
+    color: red;
+    font-family: "Inter", serif;
+}
+.portfolio .portfolio-text .portfolio-title {
+    font-size: 48px;
+    color: black;
+    font-family: "Merriweather", serif;
+    margin: 25px 0;
+}
+.portfolio .portfolio-text .description {
+    font-family: "Inter", serif;
+    opacity: 0.6;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.portfolio .portfolio-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.portfolio .portfolio-img .div1{
+    width: 424px;
+    height: 450px;
+    border: 1px solid red;
+}
+
+/* Start newsletter section  */
+.newsletter{
+    height: 617px;
+    margin: 120px 140px;
+    opacity: 100%;
+    border-radius: 16px;
+    display: flex;
+   align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: start;
+    border: 1px solid  blue;
+    background:rgba(238, 225, 227, 0.8);
+}
+.newsletter .subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.newsletter .subscribe .text-img{
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.newsletter .sub-news{
+    font-size: 48px;
+    color: black;
+    font-family: "Merriweather", serif;
+    margin: 35px 0;
+}
+.newsletter  .description{
+    font-family: "Inter", serif;
+    opacity: 0.6;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.input-button{
+    display: flex;
+    gap: 0;
+    margin-top: 30px;
+}
+.newsletter input{
+  width: 438px;
+  height: 72px;
+  border: none;
+  font-family: "Inter", serif;
+  border-radius: 60px 0 0 60px;
+  background-color: #ffff;
+  color: gray;
+  font-size: 18px;
+  padding-left: 50px;
+}
+.newsletter button{
+    width: 210px;
+    height: 72px;
+    font-family: "Inter", serif;
+    font-weight:600;
+    font-size: 20px; 
+    border-radius: 0px 60px 60px 0px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+  }
+  /* start footer */
+  .footer{
+    width: 100%;
+    height: 710px;
+    background-color: rgba(0, 0, 0, 0.897);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer-content{
+    width: 1320px;
+    border: 1px solid red;
+    height: 500px; 
+  }
+  .first{
+    display: flex;
+    justify-content: space-between;
+  }
+  .first .phone{
+    display: flex;
+    flex-direction: column;
+  }
+  .first .f-h,i{
+    font-size: 24px;
+    font-weight: medium;
+    color:white;
+    font-family: "Inter", serif;
+  }
+
+  /* .footer .footer-content{
+    width: 1320px;
+    margin: 0 140px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    border: 1px solid  blue;
+    background-color: blanchedalmond;
+  } */
