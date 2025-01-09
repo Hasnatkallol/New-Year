@@ -116,7 +116,13 @@ h1,h2,h3,h4,h5,h6, p,a {
     opacity: 100%;
     border-radius: 16px;
     display: flex;
+    position: relative;
        }
+.p2024{
+position: absolute;
+left: 1150px;
+bottom: 90px;
+}
 .party .text-party{
  display: flex;
  align-items: center;
@@ -266,7 +272,6 @@ height: 100%;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    border: 1px solid red;
 }
 .functional .text .subtitle{
     font-size: 24px;
@@ -325,7 +330,6 @@ height: 100%;
     /* justify-content: center; */
     flex-direction: column;
     text-align: start;
-    border: 1px solid  blue;
 }
 .portfolio .portfolio-text .portfolio-subtitle {
     font-size: 24px;
@@ -354,7 +358,6 @@ height: 100%;
 .portfolio .portfolio-img .div1{
     width: 424px;
     height: 450px;
-    border: 1px solid red;
 }
 
 /* Start newsletter section  */
@@ -365,10 +368,8 @@ height: 100%;
     border-radius: 16px;
     display: flex;
    align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
     text-align: start;
-    border: 1px solid  blue;
     background:rgba(238, 225, 227, 0.8);
 }
 .newsletter .subscribe {
@@ -425,8 +426,9 @@ height: 100%;
   }
   /* start footer */
   .footer{
+    padding-top: 100px;
     width: 100%;
-    height: 710px;
+    height: 610px;
     background-color: rgba(0, 0, 0, 0.897);
     display: flex;
     justify-content: center;
@@ -434,7 +436,6 @@ height: 100%;
   }
   .footer .footer-content{
     width: 1320px;
-    border: 1px solid red;
     height: 500px; 
   }
   .first{
@@ -451,16 +452,24 @@ height: 100%;
     color:white;
     font-family: "Inter", serif;
   }
-
-  /* .footer .footer-content{
-    width: 1320px;
-    margin: 0 140px;
-    border-radius: 16px;
+  .second{
+    text-align: center;
+  }
+  .third{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: start;
-    border: 1px solid  blue;
-    background-color: blanchedalmond;
-  } */
+    justify-content: space-between;
+  }
+  .third .f-h{
+
+    font-size: 24px;
+    font-weight: medium;
+    color:white;
+    font-family: "Inter", serif;
+  }
+hr{
+    margin: 50px 0;
+    width: 1320px;
+    color: gray;
+    background-color: gray;
+}
+ 
