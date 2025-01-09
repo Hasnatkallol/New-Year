@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +38,7 @@ h1,h2,h3,h4,h5,h6, p,a {
     background-size: cover;
     margin: 20px 140px;
     opacity: 100%;
-    border-radius: 10px;
+    border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,3 +63,91 @@ h1,h2,h3,h4,h5,h6, p,a {
     font-family: "Merriweather", serif;
     color: white;
   }
+
+  /* start off and categories */
+  .off-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 120px auto;
+    width: 803px;
+  }
+  .off-primary{
+    text-align: center;
+  }
+.off-primary .sub-off-title{
+ font-size: 22px;
+ font-weight:medium;
+ color: #FF0000;
+ font-family: "Inter", serif;
+ margin-bottom: 15px;
+  }
+.off-title{
+    font-family: "Inter", serif;
+    font-size: 48px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+.off-primary .off-title-p{
+    font-size: 48px;
+    font-weight:bold;
+    color: #070211;
+    font-family: "Inter", serif;
+    margin-bottom: 15px;
+     }
+
+       /* start party section */
+.party{
+    background: 
+    linear-gradient(
+        120deg, 
+        rgba(0, 0, 0, 0.9) 10%, 
+        rgba(0, 0, 0, 0.5) 40%, 
+        rgba(0, 0, 0, 0) 80% 
+      ), 
+      url("../images/Vectorrr.png");   
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    margin: 20px 140px;
+    opacity: 100%;
+    border-radius: 16px;
+    display: flex;
+       }
+.party .text-party{
+ display: flex;
+ align-items: center;
+ align-content: center;
+
+}
+.party .text-party .text{
+    margin: auto 126px;
+}
+.party .text .party-title{
+    font-size: 64px;
+    color: white;
+    font-family: "Merriweather", serif;
+    line-height: 88px;
+}
+.party .text .description{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    opacity: 0.8;
+}
+.party .text button{
+    font-weight: bold;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: white;
+    width: 103px;
+    height: 24px;
+    border: none;
+    background: none;
+    margin-left: 10px;
+}
