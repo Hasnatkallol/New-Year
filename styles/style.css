@@ -151,3 +151,45 @@ h1,h2,h3,h4,h5,h6, p,a {
     background: none;
     margin-left: 10px;
 }
+
+/* join section */
+.join{
+height: 482px;
+margin: 120px 140px;
+opacity: 100%;
+border-radius: 16px;
+display: flex;
+justify-content: center;
+text-align: center;
+background: linear-gradient(180deg, rgba(238, 225, 227, 0.8) 30%, white 100%);
+
+}
+.join .join-text{
+    width: 550px;
+    height: 272px;
+    display: flex;
+    margin: auto;
+
+}
+.join .join-text h1{
+font-size: 32px;
+font-weight: 700;
+color: black;
+font-family: "Inter", serif;
+margin-bottom: 10px;
+}
+.join .join-text strong{
+    color: #FF0000;
+    }
+.join .btn{
+    width: 167px;
+    height: 56px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    font-weight: bold;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 10px;
+    border: none;
+}
