@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,34 +17,48 @@ h1,h2,h3,h4,h5,h6, p,a {
     margin: 0;
     padding: 0;
   }
-.open-sans-normal {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}* {
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-  }
-  
-  ul li {
-    list-style-type: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+  /* .merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  } */
 
-h1,h2,h3,h4,h5,h6, p,a {
-    margin: 0;
-    padding: 0;
-  }
-.open-sans-normal {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+  /* Start HEader part */
+.banner{
+    background: linear-gradient(
+        180deg,
+         rgb(16, 16 , 16) -19.5%,
+         rgba(16, 16, 16, 0) 100%),
+         url("../images/Banner\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    margin: 20px 140px;
+    opacity: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* position: relative; */
 }
+.banner .text{
+    width: 632px;
+    height: 246px;
+    /* border: 3px solid white; */
+}
+.banner .text .subtitle {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.banner .text .title {
+    font-size: 72px;
+    line-height: 95px;
+}
+.banner .text .subtitle,.title{
+    font-family: "Merriweather", serif;
+    color: white;
+  }
